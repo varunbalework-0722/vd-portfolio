@@ -13,9 +13,7 @@ async function getData() {
 }
 
 export default async function page() {
-  console.log(process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL);
   const data = await getData();
-  console.log(data, " -data");
 
   return (
     <>
