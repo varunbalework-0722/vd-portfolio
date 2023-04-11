@@ -116,17 +116,17 @@
     },
     {
       "name": "NodeJs",
-      "image": "https://img.icons8.com/color/144/000000/node-js.png",
+      "image": "https://img.icons8.com/fluency/144/000000/node-js.png",
       "category": "Backend"
     },
     {
       "name": "EpressJs",
-      "image": "https://img.icons8.com/color/144/000000/epress-js.png",
+      "image": "https://img.icons8.com/fluency/144/000000/epress-js.png",
       "category": "Backend"
     },
     {
       "name": "MongoDB",
-      "image": "https://img.icons8.com/color/144/000000/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png",
+      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/144/000000/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png",
       "category": "Backend"
     },
     {
