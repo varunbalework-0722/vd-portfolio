@@ -7,12 +7,12 @@
   <br/>
   <br/>
 
-  <!-- <p align="center">
+  <p align="center">
     <img src="https://img.shields.io/github/forks/bhanuprakash-depani/personal-profile?style=for-the-badge" />
-  <a href="https://jigarsable.vercel.app">
+  <a href="https://bhanuprakashdepani.vercel.app">
     <img src="https://img.shields.io/static/v1?label=&message=View%20Demo&style=for-the-badge&color=black&logo=vercel" />
   </a>
-</p> -->
+</p>
 
 <p align="center">
   <a href="#introduction-">Introduction</a> •
@@ -120,11 +120,11 @@ Here are the steps to run the portfolio locally.
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/bhanuprakash-depani/personal-profile/blob/main/LICENSE.md)
 
-<!-- ## Contact 📬
+## Contact 📬
 
 If you want to contact me, you can reach me through below handles.
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sable)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhanuprakash-depani-a022419a/)
 
 ## Support 🙌
 
@@ -132,4 +132,4 @@ If you like this portfolio, please consider giving it a ⭐ on GitHub and sharin
 
 <div align="center">
   <h3> Show some &nbsp;❤️&nbsp; by starring this repo! </h3>
-</div> -->
+</div>
