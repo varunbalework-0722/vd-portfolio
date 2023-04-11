@@ -115,13 +115,13 @@
       "category": "Frontend"
     },
     {
-      "name": "NodeJs",
+      "name": "NodeJS",
       "image": "https://img.icons8.com/fluency/144/000000/node-js.png",
       "category": "Backend"
     },
     {
-      "name": "EpressJs",
-      "image": "https://img.icons8.com/ios/144/000000/epress-js.png",
+      "name": "ExpressJS",
+      "image": "https://img.icons8.com/color/144/000000/express-js.png",
       "category": "Backend"
     },
     {
@@ -179,7 +179,7 @@
     {
       "institute": "Srinivasa Jr. College | Vayalpad",
       "degree": "Intermediate",
-      "duration": "2008 - 1010"
+      "duration": "2008 - 2010"
     },
     {
       "institute": "SVIST (aka Viswam Engineering College) | Angallu - Andhra Pradesh",
@@ -189,29 +189,21 @@
   ],
   "experiences": [
     {
-      "company": "BYTEMARK TECH. SOLUTIONS, INDIA PVT. LTD.",
-      "position": "Senior Frontend Web Developer",
-      "duration": "Feb 2021 - Till Date",
+      "company": "Infosys Ltd.",
+      "position": "Systems Engineer Trainee/ Systems Engineer ",
+      "duration": "Dec 2014 - Jul 2015",
       "desc": [
-        "Involved in multiple projects to implement the web pages using latest open source JS frameworks.",
-        "Collaborate with Product designers, Product owners and Backend engineers to deliver compelling user facing products.",
-        "Contribute to code review",
-        "Developing Re-usable components",
-        "Resolve the bugs raised in alpha, UAT and production environments",
-        "Skills: HTML5 · CSS3/SCSS · JavaScript/TypeScript · TailwindCSS · ReactJS · Redux · NodeJS · Angular 2+ · REST APIs Integration · Material UI "
-      ]
-    },
-    {
-      "company": "Accenture",
-      "position": "Application Development Senior Analyst",
-      "duration": "Oct 2019 - Feb 2021",
-      "desc": [
-        "Designing and developing the UI use cases as per wireframes provided by client using Angular framework and NgRx as state management library.",
-        "Integrating the UI with REST api's to fulfil the requirements.",
-        "Writing unit test cases using Jasmine and executing with Karma",
-        "Analysing, validating and fixing the defects created by QA team",
-        "Providing KT sessions and mentor the team members",
-        "Skills: HTML5 · CSS3 · JavaScript/TypeScript · Angular 7, 8 & 9 · Jasmine/Karma · NgRx · RxJs · REST APIs Integration · Angular Material "
+        "Part of Finacle product support for set of banks which are based on Finacle ver7.x and 10.x",
+        "Develop the correction SQLs or PL/SQL programs to rectify the non-simulateable issues",
+        "Responsibilities include simulations, system/logs analysis, troubleshooting issues, testing and providing robust solution to the customers",
+        "Certified patches testing and proper deployment at offshore using APDM tool",
+        "Responsibility of delivering certified patches with banks",
+        "Requirements gathering for enhancements and providing customisation workflow to the customers",
+        "Develop the scripts for internal purpose using Finacle scripting and Unix shell scripting",
+        "Analysing the tickets raised by banks and providing fixes on priority",
+        "On call support and provide immediate solution to customers for high priority issues",
+        "Involved in version migration team and implementation",
+        "Skills: HTML5 · CSS3 · JavaScript · SQL · PL/SQL · Shell Scripting · Unix · Finacle Scripting"
       ]
     },
     {
@@ -230,21 +222,29 @@
       ]
     },
     {
-      "company": "Infosys Ltd.",
-      "position": "Systems Engineer Trainee/ Systems Engineer ",
-      "duration": "Dec 2014 - Jul 2015",
+      "company": "Accenture",
+      "position": "Application Development Senior Analyst",
+      "duration": "Oct 2019 - Feb 2021",
       "desc": [
-        "Part of Finacle product support for set of banks which are based on Finacle ver7.x and 10.x",
-        "Develop the correction SQLs or PL/SQL programs to rectify the non-simulateable issues",
-        "Responsibilities include simulations, system/logs analysis, troubleshooting issues, testing and providing robust solution to the customers",
-        "Certified patches testing and proper deployment at offshore using APDM tool",
-        "Responsibility of delivering certified patches with banks",
-        "Requirements gathering for enhancements and providing customisation workflow to the customers",
-        "Develop the scripts for internal purpose using Finacle scripting and Unix shell scripting",
-        "Analysing the tickets raised by banks and providing fixes on priority",
-        "On call support and provide immediate solution to customers for high priority issues",
-        "Involved in version migration team and implementation",
-        "Skills: HTML5 · CSS3 · JavaScript · SQL · PL/SQL · Shell Scripting · Unix · Finacle Scripting"
+        "Designing and developing the UI use cases as per wireframes provided by client using Angular framework and NgRx as state management library.",
+        "Integrating the UI with REST api's to fulfil the requirements.",
+        "Writing unit test cases using Jasmine and executing with Karma",
+        "Analysing, validating and fixing the defects created by QA team",
+        "Providing KT sessions and mentor the team members",
+        "Skills: HTML5 · CSS3 · JavaScript/TypeScript · Angular 7, 8 & 9 · Jasmine/Karma · NgRx · RxJs · REST APIs Integration · Angular Material "
+      ]
+    },
+    {
+      "company": "BYTEMARK TECH. SOLUTIONS, INDIA PVT. LTD.",
+      "position": "Senior Frontend Web Developer",
+      "duration": "Feb 2021 - Till Date",
+      "desc": [
+        "Involved in multiple projects to implement the web pages using latest open source JS frameworks.",
+        "Collaborate with Product designers, Product owners and Backend engineers to deliver compelling user facing products.",
+        "Contribute to code review",
+        "Developing Re-usable components",
+        "Resolve the bugs raised in alpha, UAT and production environments",
+        "Skills: HTML5 · CSS3/SCSS · JavaScript/TypeScript · TailwindCSS · ReactJS · Redux · NodeJS · Angular 2+ · REST APIs Integration · Material UI "
       ]
     }
   ]
