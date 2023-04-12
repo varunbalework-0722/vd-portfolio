@@ -4,6 +4,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 // sgMail.setApiKey(process.env.SENDGRID_API_KEY || '');
 import mailjet from "node-mailjet";
 
+// MAILJET setup
 const mailJetInit = mailjet.apiConnect(
   process.env.MAILJET_API_KEY as string,
   process.env.MAILJET_API_SECRET as string
