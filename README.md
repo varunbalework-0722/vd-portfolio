@@ -34,7 +34,7 @@ Next Portfolio is built using Next.js and Tailwind CSS for a modern design and r
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind CSS](https://tailwindcss.com)
 - [Firebase](https://firebase.google.com)
-- [SendGrid](https://sendgrid.com)
+- [MailJet](https://mailjet.com)
 - [Framer Motion](https://www.framer.com/motion)
 
 ## Tech Stack 🛠️
@@ -79,14 +79,15 @@ Here are the steps to run the portfolio locally.
 
 5. Create an `.env.local` file in the root directory, and add the following variables with your firebase config:
    ```
-   SENDGRID_API_KEY=XXXXXXXX
+   MAILJET_API_KEY=XXXXXXXX
+   MAILJET_API_SECRET=XXXXXXXXX
    NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
    MAIL_FROM=YOUR_MAIL_ID
    MAIL_TO=YOUR_MAIL_ID
    ```
-   <!-- write text to tell user to get sendgrid keys from dashboard and add here -->
+   <!-- write text to tell user to get MailJet keys from dashboard and add here -->
 
-> **Note**: `SENDGRID_API_KEY` - Create an API key from "Settings" -> "API Keys" with "Restricted Access" to only "Mail Send"
+> **Note**: `MAILJET_API_KEY` and `MAILJET_API_SECRET` - Create an API key & secret from "Account Settings" -> "REST API" --> "API key management" and generate a secrete key for API key
 
 1. Update the sample [data.json](https://github.com/bhanuprakash-depani/personal-profile/blob/main/data.json) provided, with your data or directly import the same and edit using firebase later. (For storing images you can use [Cloudinary](https://cloudinary.com) or [Firebase Storage](https://firebase.google.com/docs/storage))
 
@@ -109,7 +110,8 @@ Here are the steps to run the portfolio locally.
 
 3. Add the following environment variables in the Vercel dashboard:
    ```
-   SENDGRID_API_KEY=XXXXXXXX
+   MAILJET_API_KEY=XXXXXXXX
+   MAILJET_API_SECRET=XXXXXXX
    NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
    MAIL_FROM=YOUR_MAIL_ID
    MAIL_TO=YOUR_MAIL_ID
