@@ -8,7 +8,7 @@ export default function Head() {
       />
       <meta
         name="keywords"
-        content="Vinod Darapu, portfolio, bhanuprakash, nextjs portfolio, portfolio design, portfolio website, personal portfolio, freelancer, angular, reactjs"
+        content="Vinod Darapu, portfolio, vinod darapu, nextjs portfolio, portfolio design, portfolio website, personal portfolio, freelancer, angular, reactjs"
       />
       <meta
         property="og:site_name"
@@ -22,18 +22,18 @@ export default function Head() {
         property="og:description"
         content="I am Vinod Darapu, a Devops Engineer based in Bangalore, India. I'm a 2014 graduate from Sir Vishveswaraiah Institute of Science and Technology (aka Viswam College), Angallu, Andhra Pradesh. I'm passionate about creating beautiful, functional and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer."
       />
-      <meta property="og:url" content="https://bhanuprakashdepani.vercel.app" />
+      <meta property="og:url" content="https://vd-portfolio-hazel.vercel.app" />
       <meta
         property="og:image"
-        content="https://bhanuprakashdepani.vercel.app/portfolio-fork.png"
+        content="https://vd-portfolio-hazel.vercel.app/portfolio-fork.png"
       />
-      <link rel="canonical" href="https://bhanuprakashdepani.vercel.app" />
+      <link rel="canonical" href="https://vd-portfolio-hazel.vercel.app" />
       <meta name="author" content="Vinod Darapu" />
       <meta name="language" content="English" />
       <meta name="twitter:card" content="summary" />
       <meta
         name="twitter:site"
-        content="https://bhanuprakashdepani.vercel.app"
+        content="https://vd-portfolio-hazel.vercel.app"
       />
       <meta
         name="application-name"

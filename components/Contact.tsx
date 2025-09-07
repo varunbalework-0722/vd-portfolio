@@ -36,16 +36,16 @@ const Contact = () => {
           </div>
 
           {/* Email */}
-          <div className="flex flex-col items-center justify-center p-6 rounded-xl bg-white dark:bg-gray-800 text-center shadow-sm hover:shadow-md transition-shadow">
+            <div className="flex flex-col items-center justify-center p-6 rounded-xl bg-white dark:bg-gray-800 text-center shadow-sm hover:shadow-md transition-shadow">
             <FaEnvelope className="text-3xl text-red-500 mb-2" />
             <h3 className="font-semibold">Email</h3>
             <a
-              href="mailto:vinod.darapu11801@gmail.com"
-              className="text-blue-500 mt-1 break-words"
+                href="mailto:vinod.darapu11801@gmail.com"
+                className="text-blue-500 mt-2 break-words whitespace-normal max-w-[180px]"
             >
-              vinod.darapu11801@gmail.com
+                vinod.darapu11801@gmail.com
             </a>
-          </div>
+            </div>
 
           {/* GitHub */}
           <div className="flex flex-col items-center justify-center p-6 rounded-xl bg-white dark:bg-gray-800 text-center shadow-sm hover:shadow-md transition-shadow">
