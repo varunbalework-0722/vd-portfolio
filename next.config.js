@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output:"export",
   experimental: {
     appDir: true,
   },
@@ -17,6 +18,11 @@ const nextConfig = {
       "rxjs.dev",
       "lesscss.org",
       "material.angular.io",
+      "pbs.twimg.com",
+      "yt3.googleusercontent.com",
+      "encrypted-tbn0.gstatic.com",
+      "upload.wikimedia.org",
+      "www.svgrepo.com"
     ],
   },
 };

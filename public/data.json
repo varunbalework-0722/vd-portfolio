@@ -1,11 +1,10 @@
 {
   "main": {
-    "name": "Jhon Doe",
+    "name": "Vinod Darapu",
     "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "titles": [
-      "Frontend Development",
-      "Backend Development",
-      "App Development"
+      "Software Engineer",
+      "Cloud Devops Engineer"
     ],
     "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
     "techStackImages": [
@@ -25,18 +24,22 @@
   },
   "socials": [
     {
+      "name": "LinkedIn",
       "icon": "FaLinkedin",
       "link": "https://www.linkedin.com/in/jhon-doe"
     },
     {
+      "name": "GitHub",
       "icon": "FaGithub",
       "link": "https://github.com/jhon-doe"
     },
     {
+      "name": "Instagram",
       "icon": "FaInstagram",
       "link": "https://www.instagram.com/jhondoe"
     },
     {
+      "name": "Twitter",
       "icon": "FaTwitter",
       "link": "https://twitter.com/jhondoe"
     }
@@ -97,24 +100,22 @@
     {
       "institute": "XYZ School | CBSE",
       "degree": "HSC Science",
-      "duration": "2014 - 2016"
+      "startDate": "2014",
+      "endDate": "2016"
     },
     {
       "institute": "XYZ College Of Engineering",
       "degree": "B.Tech CSE",
-      "duration": "2016 - 2020",
-      "desc": [
-        "Pursuing IT Engineering course from ABC University",
-        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
-        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
-      ]
+      "startDate": "2016",
+      "endDate": "2020"
     }
   ],
   "experiences": [
     {
       "company": "ABC Tech Solutions",
       "position": "Web Developer",
-      "duration": "2020 -2022",
+      "startDate": "2020",
+      "endDate": "2022",
       "desc": [
         "Assisted with design and development of project.",
         "Worked on building the product from scratch and built multiple dashboards.",
@@ -124,7 +125,8 @@
     {
       "company": "XYZ Tech Solutions",
       "position": "Web Developer",
-      "duration": "2022 - present",
+      "startDate": "2022",
+      "endDate": "present",
       "desc": [
         "Assisted with design and development of project.",
         "Worked on building the product from scratch and built multiple dashboards.",

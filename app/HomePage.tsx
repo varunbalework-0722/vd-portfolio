@@ -20,17 +20,17 @@ const HomePage = ({ data }: Props) => {
     <>
       <Header logo={data.main.name} />
       <Hero mainData={data.main} />
-      <Socials socials={data.socials} />
+      {/* <Socials socials={data.socials} /> */}
       <About aboutData={data.about} name={data.main.name} />
       <Skills skillData={data.skills} />
-      {Boolean(data?.projects) && <Projects projectsData={data.projects} />}
+      {/* {Boolean(data?.projects) && <Projects projectsData={data.projects} />} */}
       <Experiences
         experienceData={data.experiences}
         educationData={data.educations}
       />
       <Contact />
-      <CallToAction />
-      <Footer socials={data.socials} name={data.main.name} />
+      {/* <CallToAction /> */}
+      {/* <Footer socials={data.socials} name={data.main.name} /> */}
     </>
   );
 };
