@@ -14,52 +14,36 @@ const Hero = ({ mainData }: HeroProps) => {
   const { theme } = useTheme();
   const { name, titles, heroImage, shortDesc, techStackImages } = mainData;
 
-  // Define gradient styles based on the theme
-  const gradientStyle =
-    theme === "dark"
-      ? {
-          backgroundImage: `
-              radial-gradient(at 10% 20%, #635398, transparent),
-              radial-gradient(at 80% 80%, #7c5c7d, transparent)
-            `,
-          opacity: 0.5,
-        }
-      : {
-          backgroundImage: `
-              radial-gradient(at 10% 20%, #B5A1FF, transparent),
-              radial-gradient(at 80% 80%, #FF80B5, transparent)
-            `,
-          opacity: 0.3,
-        };
-
   return (
     <section
       id="home"
       className={`${
-        theme === "dark" ? "bg-gray-900" : "bg-white"
+        theme === "dark" ? "bg-grey-900" : "bg-white"
       } relative min-h-screen w-full mx-auto overflow-hidden text-gray-800 dark:text-gray-200`}
     >
-      {/* Background Gradient Effect */}
-      <div className="absolute inset-0 z-0" style={gradientStyle}>
-        <div
-          className="absolute inset-0"
-          style={
-            theme === "dark"
-              ? {
-                  backgroundImage: `
-                    radial-gradient(at 90% 10%, #634358, transparent),
-                    radial-gradient(at 10% 90%, #5d638c, transparent)
-                  `,
-                }
-              : {
-                  backgroundImage: `
-                    radial-gradient(at 90% 10%, #FFB6B6, transparent),
-                    radial-gradient(at 10% 90%, #A5D2FF, transparent)
-                  `,
-                }
-          }
-        ></div>
-      </div>
+      {/* Background Gradient Effect - Conditionally Rendered */}
+      {theme !== "dark" && (
+        <div className="absolute inset-0 z-0 opacity-40">
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `
+                radial-gradient(at 10% 20%, #B5A1FF, transparent),
+                radial-gradient(at 80% 80%, #FF80B5, transparent)
+              `,
+            }}
+          ></div>
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `
+                radial-gradient(at 90% 10%, #FFB6B6, transparent),
+                radial-gradient(at 10% 90%, #A5D2FF, transparent)
+              `,
+            }}
+          ></div>
+        </div>
+      )}
       
       <div className="relative z-10 py-16 lg:py-48 flex flex-col-reverse lg:flex-row justify-around gap-10 lg:gap-0">
         <div className="flex flex-col gap-4 md:gap-6 text-left lg:w-1/2 2xl:w-1/3 mx-4 md:mx-6 xl:mx-0">
