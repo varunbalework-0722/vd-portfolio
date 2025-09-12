@@ -18,19 +18,28 @@ const Hero = ({ mainData }: HeroProps) => {
     <section
       id="home"
       className={`${
-        theme === "dark" ? "bg-gray-900" : "bg-white"
+        theme === "dark" ? "bg-grey-900" : "bg-white"
       } relative min-h-screen w-full mx-auto overflow-hidden text-gray-800 dark:text-gray-200`}
     >
       {/* Background Gradient Effect - Conditionally Rendered */}
       {theme !== "dark" && (
-        <div className="absolute inset-0 z-0">
+ <div className="absolute inset-0 z-0 opacity-40">
           <div
             className="absolute inset-0"
             style={{
-             background: `
-              radial-gradient(circle at 20% 30%, rgba(125, 211, 252, 0.5), transparent 70%),
-              radial-gradient(circle at 80% 70%, rgba(56, 189, 248, 0.4), transparent 70%)
-            `,
+              backgroundImage: `
+                radial-gradient(at 10% 20%, #B5A1FF, transparent),
+                radial-gradient(at 80% 80%, #FF80B5, transparent)
+              `,
+            }}
+          ></div>
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `
+                radial-gradient(at 90% 10%, #FFB6B6, transparent),
+                radial-gradient(at 10% 90%, #A5D2FF, transparent)
+              `,
             }}
           ></div>
         </div>
@@ -86,11 +95,7 @@ const Hero = ({ mainData }: HeroProps) => {
         </div>
 
         <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-0">
-          <div className="relative w-56 h-56 md:w-80 md:h-80 lg:-translate-x-16 rounded-full p-[3px] 
-            bg-gradient-to-tr from-cyan-300 via-blue-400 to-indigo-500 
-            shadow-[0_0_15px_rgba(59,130,246,0.3)] 
-            hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] 
-            transition-all duration-500">
+          <div className="relative w-56 h-56 md:w-80 md:h-80 lg:-translate-x-16 rounded-full p-[3px] bg-gradient-to-tr from-violet-500 via-pink-400 to-blue-500">
             <Image
               alt="avatar"
               width={1000}

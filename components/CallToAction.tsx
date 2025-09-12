@@ -26,7 +26,7 @@ const CallToAction = () => {
         </p>
         <div className="flex items-center gap-4 my-4">
           <Link
-            href="https://github.com/bhanuprakash-depani/personal-profile"
+            href="https://github.com/"
             target="_blank"
             className="py-2 px-4 bg-white text-black rounded-lg w-fit flex items-center gap-2 hover:shadow-xl transition-shadow"
           >
@@ -34,7 +34,7 @@ const CallToAction = () => {
             Fork Now
           </Link>
           <Link
-            href="https://github.com/bhanuprakash-depani/personal-profile#readme"
+            href="https://github.com/"
             target="_blank"
             className="py-2 px-4 bg-violet-800 rounded-lg w-fit flex items-center gap-2 hover:bg-violet-900 transition-all"
           >

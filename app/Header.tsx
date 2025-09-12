@@ -32,7 +32,7 @@ export default function Header({ logo }: { logo: string }) {
           href={"/"}
           className="2xl:ml-6 hover:text-violet-700 hover:dark:text-violet-500 transition-colors duration-300"
         >
-          {logo === "Bhanu" ? (
+          {logo === "logo" ? (
             <FaNodeJs size={28} />
           ) : (
             <span className="text-lg font-medium">{logo.split(" ")[0]}</span>
@@ -64,7 +64,7 @@ export default function Header({ logo }: { logo: string }) {
       </nav>
 
       <nav className="p-4 flex sm:hidden items-center justify-between">
-        {logo === "Bhanu" ? (
+        {logo === "logo" ? (
           <FaNodeJs size={28} />
         ) : (
           <span className="text-lg font-medium">{logo.split(" ")[0]}</span>
